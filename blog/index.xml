@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blogs on 阿文文的家</title>
+    <link>https://KiRyuWen.github.io/blog/</link>
+    <description>Recent content in Blogs on 阿文文的家</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-tw</language>
+    <lastBuildDate>Fri, 07 Aug 2020 13:45:00 +0800</lastBuildDate>
+    
+	<atom:link href="https://KiRyuWen.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>阿文文的第一篇文章</title>
+      <link>https://KiRyuWen.github.io/blog/awenwen-no-firstpost/</link>
+      <pubDate>Fri, 07 Aug 2020 13:45:00 +0800</pubDate>
+      
+      <guid>https://KiRyuWen.github.io/blog/awenwen-no-firstpost/</guid>
+      <description>最最一開始用完 hugo server 複製完網址後要在上方輸入/blog/test
+Hello World &amp;lt;-內文
+我是瑞斯 1.底下是標題的用法 總共有6級標題 #+空白 2.</description>
+    </item>
+    
+    <item>
+      <title>How To Use Checklists To Improve Your UX</title>
+      <link>https://KiRyuWen.github.io/blog/post-13/</link>
+      <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
+      
+      <guid>https://KiRyuWen.github.io/blog/post-13/</guid>
+      <description>Heading 1 Heading 2 Heading 3 Heading 4 Heading 5 Heading 6 Emphasis Emphasis, aka italics, with asterisks or underscores.</description>
+    </item>
+    
+  </channel>
+</rss>

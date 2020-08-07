@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on 阿文文的家</title>
+    <link>https://KiRyuWen.github.io/tags/</link>
+    <description>Recent content in Tags on 阿文文的家</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-tw</language>
+    <lastBuildDate>Fri, 07 Aug 2020 13:45:00 +0800</lastBuildDate>
+    
+	<atom:link href="https://KiRyuWen.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>星爆</title>
+      <link>https://KiRyuWen.github.io/tags/%E6%98%9F%E7%88%86/</link>
+      <pubDate>Fri, 07 Aug 2020 13:45:00 +0800</pubDate>
+      
+      <guid>https://KiRyuWen.github.io/tags/%E6%98%9F%E7%88%86/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>氣流</title>
+      <link>https://KiRyuWen.github.io/tags/%E6%B0%A3%E6%B5%81/</link>
+      <pubDate>Fri, 07 Aug 2020 13:45:00 +0800</pubDate>
+      
+      <guid>https://KiRyuWen.github.io/tags/%E6%B0%A3%E6%B5%81/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Game</title>
+      <link>https://KiRyuWen.github.io/tags/game/</link>
+      <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
+      
+      <guid>https://KiRyuWen.github.io/tags/game/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>HTML</title>
+      <link>https://KiRyuWen.github.io/tags/html/</link>
+      <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
+      
+      <guid>https://KiRyuWen.github.io/tags/html/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>New</title>
+      <link>https://KiRyuWen.github.io/tags/new/</link>
+      <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
+      
+      <guid>https://KiRyuWen.github.io/tags/new/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Photos</title>
+      <link>https://KiRyuWen.github.io/tags/photos/</link>
+      <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
+      
+      <guid>https://KiRyuWen.github.io/tags/photos/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Python</title>
+      <link>https://KiRyuWen.github.io/tags/python/</link>
+      <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
+      
+      <guid>https://KiRyuWen.github.io/tags/python/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
