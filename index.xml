@@ -23,6 +23,15 @@ Hello World &amp;lt;-內文
     </item>
     
     <item>
+      <title>阿文文的第二篇文章</title>
+      <link>https://KiRyuWen.github.io/blog/test/</link>
+      <pubDate>Fri, 07 Aug 2020 13:45:00 +0800</pubDate>
+      
+      <guid>https://KiRyuWen.github.io/blog/test/</guid>
+      <description>Test!!</description>
+    </item>
+    
+    <item>
       <title>How To Use Checklists To Improve Your UX</title>
       <link>https://KiRyuWen.github.io/blog/post-13/</link>
       <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>

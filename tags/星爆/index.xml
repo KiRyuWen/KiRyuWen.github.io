@@ -22,5 +22,14 @@ Hello World &amp;lt;-內文
 我是瑞斯 1.底下是標題的用法 總共有6級標題 #+空白 2.</description>
     </item>
     
+    <item>
+      <title>阿文文的第二篇文章</title>
+      <link>https://KiRyuWen.github.io/blog/test/</link>
+      <pubDate>Fri, 07 Aug 2020 13:45:00 +0800</pubDate>
+      
+      <guid>https://KiRyuWen.github.io/blog/test/</guid>
+      <description>Test!!</description>
+    </item>
+    
   </channel>
 </rss>
