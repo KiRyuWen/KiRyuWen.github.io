@@ -1,76 +1,90 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on 阿文文的家</title>
-    <link>https://KiRyuWen.github.io/tags/</link>
-    <description>Recent content in Tags on 阿文文的家</description>
+    <title>Tags on Wen-Yi, Lo</title>
+    <link>https://kiryuwen.github.io/tags/</link>
+    <description>Recent content in Tags on Wen-Yi, Lo</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>zh-tw</language>
-    <lastBuildDate>Fri, 07 Aug 2020 13:45:00 +0800</lastBuildDate>
-    
-	<atom:link href="https://KiRyuWen.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <language>en-us</language>
+    <lastBuildDate>Fri, 28 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://kiryuwen.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>星爆</title>
-      <link>https://KiRyuWen.github.io/tags/%E6%98%9F%E7%88%86/</link>
-      <pubDate>Fri, 07 Aug 2020 13:45:00 +0800</pubDate>
+      <title>DataStructure</title>
+      <link>https://kiryuwen.github.io/tags/datastructure/</link>
+      <pubDate>Fri, 28 Jan 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://KiRyuWen.github.io/tags/%E6%98%9F%E7%88%86/</guid>
+      <guid>https://kiryuwen.github.io/tags/datastructure/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>氣流</title>
-      <link>https://KiRyuWen.github.io/tags/%E6%B0%A3%E6%B5%81/</link>
-      <pubDate>Fri, 07 Aug 2020 13:45:00 +0800</pubDate>
+      <title>css</title>
+      <link>https://kiryuwen.github.io/tags/css/</link>
+      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://KiRyuWen.github.io/tags/%E6%B0%A3%E6%B5%81/</guid>
+      <guid>https://kiryuwen.github.io/tags/css/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Game</title>
-      <link>https://KiRyuWen.github.io/tags/game/</link>
-      <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
+      <title>html</title>
+      <link>https://kiryuwen.github.io/tags/html/</link>
+      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://KiRyuWen.github.io/tags/game/</guid>
+      <guid>https://kiryuwen.github.io/tags/html/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>HTML</title>
-      <link>https://KiRyuWen.github.io/tags/html/</link>
-      <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
+      <title>markdown</title>
+      <link>https://kiryuwen.github.io/tags/markdown/</link>
+      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://KiRyuWen.github.io/tags/html/</guid>
+      <guid>https://kiryuwen.github.io/tags/markdown/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>New</title>
-      <link>https://KiRyuWen.github.io/tags/new/</link>
-      <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
+      <title>themes</title>
+      <link>https://kiryuwen.github.io/tags/themes/</link>
+      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://KiRyuWen.github.io/tags/new/</guid>
+      <guid>https://kiryuwen.github.io/tags/themes/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Photos</title>
-      <link>https://KiRyuWen.github.io/tags/photos/</link>
-      <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
+      <title>privacy</title>
+      <link>https://kiryuwen.github.io/tags/privacy/</link>
+      <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://KiRyuWen.github.io/tags/photos/</guid>
+      <guid>https://kiryuwen.github.io/tags/privacy/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Python</title>
-      <link>https://KiRyuWen.github.io/tags/python/</link>
-      <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
+      <title>shortcodes</title>
+      <link>https://kiryuwen.github.io/tags/shortcodes/</link>
+      <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://KiRyuWen.github.io/tags/python/</guid>
+      <guid>https://kiryuwen.github.io/tags/shortcodes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tag with whitespaces</title>
+      <link>https://kiryuwen.github.io/tags/tag-with-whitespaces/</link>
+      <pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://kiryuwen.github.io/tags/tag-with-whitespaces/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>text</title>
+      <link>https://kiryuwen.github.io/tags/text/</link>
+      <pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://kiryuwen.github.io/tags/text/</guid>
       <description></description>
     </item>
     

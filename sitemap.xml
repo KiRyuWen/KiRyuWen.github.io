@@ -1,100 +1,87 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
-    <loc>https://KiRyuWen.github.io/blog/</loc>
-    <lastmod>2020-08-07T13:45:00+08:00</lastmod>
+    <loc>https://kiryuwen.github.io/p/binary-search-tree/</loc>
+    <lastmod>2022-01-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://kiryuwen.github.io/categories/</loc>
+    <lastmod>2022-01-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://kiryuwen.github.io/tags/datastructure/</loc>
+    <lastmod>2022-01-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://kiryuwen.github.io/categories/datastructure/</loc>
+    <lastmod>2022-01-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://kiryuwen.github.io/post/</loc>
+    <lastmod>2022-01-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://kiryuwen.github.io/tags/</loc>
+    <lastmod>2022-01-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://kiryuwen.github.io/</loc>
+    <lastmod>2022-01-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://kiryuwen.github.io/archives/</loc>
+    <lastmod>2019-05-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://kiryuwen.github.io/page/</loc>
+    <lastmod>2020-10-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://kiryuwen.github.io/tags/css/</loc>
+    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://kiryuwen.github.io/tags/html/</loc>
+    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://kiryuwen.github.io/tags/markdown/</loc>
+    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://kiryuwen.github.io/p/markdown-syntax-guide/</loc>
+    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://kiryuwen.github.io/categories/syntax/</loc>
+    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://kiryuwen.github.io/tags/themes/</loc>
+    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://kiryuwen.github.io/categories/themes/</loc>
+    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://kiryuwen.github.io/tags/privacy/</loc>
+    <lastmod>2019-03-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://kiryuwen.github.io/p/rich-content/</loc>
+    <lastmod>2019-03-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://kiryuwen.github.io/tags/shortcodes/</loc>
+    <lastmod>2019-03-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://kiryuwen.github.io/p/placeholder-text/</loc>
+    <lastmod>2019-03-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://kiryuwen.github.io/tags/tag-with-whitespaces/</loc>
+    <lastmod>2019-03-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://kiryuwen.github.io/categories/test/</loc>
+    <lastmod>2019-03-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://kiryuwen.github.io/categories/test-with-whitespaces/</loc>
+    <lastmod>2019-03-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://kiryuwen.github.io/tags/text/</loc>
+    <lastmod>2019-03-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://kiryuwen.github.io/p/math-typesetting/</loc>
+    <lastmod>2019-03-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://kiryuwen.github.io/about/</loc>
+    <lastmod>2020-10-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://kiryuwen.github.io/links/</loc>
+  </url><url>
+    <loc>https://kiryuwen.github.io/search/</loc>
   </url>
-  
-  <url>
-    <loc>https://KiRyuWen.github.io/categories/</loc>
-    <lastmod>2020-08-07T13:45:00+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://KiRyuWen.github.io/tags/</loc>
-    <lastmod>2020-08-07T13:45:00+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://KiRyuWen.github.io/categories/%E5%BF%83%E5%BE%97/</loc>
-    <lastmod>2020-08-07T13:45:00+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://KiRyuWen.github.io/tags/%E6%98%9F%E7%88%86/</loc>
-    <lastmod>2020-08-07T13:45:00+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://KiRyuWen.github.io/tags/%E6%B0%A3%E6%B5%81/</loc>
-    <lastmod>2020-08-07T13:45:00+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://KiRyuWen.github.io/</loc>
-    <lastmod>2020-08-07T13:45:00+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://KiRyuWen.github.io/blog/awenwen-no-firstpost/</loc>
-    <lastmod>2020-08-07T13:45:00+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://KiRyuWen.github.io/blog/test/</loc>
-    <lastmod>2020-08-07T13:45:00+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://KiRyuWen.github.io/about/</loc>
-    <lastmod>2019-10-29T13:49:23+06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://KiRyuWen.github.io/contact/</loc>
-    <lastmod>2019-10-29T13:49:23+06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://KiRyuWen.github.io/search/</loc>
-    <lastmod>2019-10-29T13:49:23+06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://KiRyuWen.github.io/tags/game/</loc>
-    <lastmod>2019-10-29T10:07:47+06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://KiRyuWen.github.io/categories/go-language/</loc>
-    <lastmod>2019-10-29T10:07:47+06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://KiRyuWen.github.io/blog/post-13/</loc>
-    <lastmod>2019-10-29T10:07:47+06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://KiRyuWen.github.io/tags/html/</loc>
-    <lastmod>2019-10-29T10:07:47+06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://KiRyuWen.github.io/tags/new/</loc>
-    <lastmod>2019-10-29T10:07:47+06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://KiRyuWen.github.io/tags/photos/</loc>
-    <lastmod>2019-10-29T10:07:47+06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://KiRyuWen.github.io/tags/python/</loc>
-    <lastmod>2019-10-29T10:07:47+06:00</lastmod>
-  </url>
-  
 </urlset>
