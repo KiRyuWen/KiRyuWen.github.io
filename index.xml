@@ -6,7 +6,61 @@
         <description>Recent content on Wen-Yi, Lo</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Mon, 31 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://kiryuwen.github.io/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Tue, 01 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://kiryuwen.github.io/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Sqrt(x)</title>
+        <link>https://kiryuwen.github.io/p/sqrtx/</link>
+        <pubDate>Tue, 01 Feb 2022 00:00:00 +0000</pubDate>
+        
+        <guid>https://kiryuwen.github.io/p/sqrtx/</guid>
+        <description>&lt;h2 id=&#34;brute-force&#34;&gt;brute force&lt;/h2&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;iterate over to x/2 to find final solution
+try all possible!
+
+from i &amp;lt;- 1 to x/2  
+    if i*i &amp;gt; x 
+        return i-1
+    else if i*i == x
+        return i
+    else
+        i = i + 1
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;using-newtons-method&#34;&gt;Using Newton&amp;rsquo;s method&lt;/h2&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;we first guess x/2 is the root  
+if is not we iterate until the error is less than 10^-5.
+原理是，我看影片學的，
+x*a/x = a = sqrt(a)*sqrt(a)
+如果x&amp;lt;sqrt(a) 那a/x &amp;gt; sqrt(a)
+如果x&amp;gt;sqrt(a) a/x &amp;lt; sqrt(a)
+那要找到root就是讓兩者相等 x = a/x 所以讓他們越來越靠近使用平均
+(x+a/x)/2  當成下一次的guess 讓x-a/x的誤差越來越小
+
+guess &amp;lt;- x/2
+xn_1 &amp;lt;- (guess+x/guess)/2
+
+while (xn_1-guess) &amp;gt; 10^-5:
+    guess &amp;lt;- xn_1
+    xn_1 &amp;lt;- (guess+x/guess)/2
+
+return guess
+
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;binary-search-methoddont-know-why-is-working&#34;&gt;binary search method(don&amp;rsquo;t know why is working)&lt;/h2&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;因為數字的sqrt 不會大於數字/2，利用這個關係
+只要一直計算一半一半(因為是int)直到等於x 或是大於x就找到答案了
+
+//needed to careful overflow!!
+left  &amp;lt;- 1
+right &amp;lt;- x
+from left &amp;lt;= right
+    mid = (left+right)/2
+    if mid*mid == x
+        return mid
+    else if mid*mid &amp;gt; x
+        right = mid -1
+    else
+        left = mid+1
+return right
+&lt;/code&gt;&lt;/pre&gt;</description>
+        </item>
+        <item>
         <title>Karatsuba Algorithm(multiply two num)</title>
         <link>https://kiryuwen.github.io/p/karatsuba-algorithmmultiply-two-num/</link>
         <pubDate>Mon, 31 Jan 2022 00:00:00 +0000</pubDate>
