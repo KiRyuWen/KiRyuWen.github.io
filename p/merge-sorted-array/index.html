@@ -1,16 +1,16 @@
 <!DOCTYPE html>
 <html lang="en-us">
     <head><meta charset='utf-8'>
-<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='LeetCode problem'><title>Sqrt(x)</title>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='LeetCode problem'><title>Merge Sorted Array</title>
 
-<link rel='canonical' href='https://kiryuwen.github.io/p/sqrtx/'>
+<link rel='canonical' href='https://kiryuwen.github.io/p/merge-sorted-array/'>
 
-<link rel="stylesheet" href="/scss/style.min.1b3ac667198cb83edcc9c45e606a6f4dd6910b8ada6b74d7fd988f1b2dfd0c7c.css"><meta property='og:title' content='Sqrt(x)'>
+<link rel="stylesheet" href="/scss/style.min.1b3ac667198cb83edcc9c45e606a6f4dd6910b8ada6b74d7fd988f1b2dfd0c7c.css"><meta property='og:title' content='Merge Sorted Array'>
 <meta property='og:description' content='LeetCode problem'>
-<meta property='og:url' content='https://kiryuwen.github.io/p/sqrtx/'>
+<meta property='og:url' content='https://kiryuwen.github.io/p/merge-sorted-array/'>
 <meta property='og:site_name' content='Wen-Yi, Lo'>
-<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='Leetcode' /><meta property='article:published_time' content='2022-02-01T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2022-02-01T00:00:00&#43;00:00'/>
-<meta name="twitter:title" content="Sqrt(x)">
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='Leetcode' /><meta property='article:published_time' content='2022-02-02T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2022-02-02T00:00:00&#43;00:00'/>
+<meta name="twitter:title" content="Merge Sorted Array">
 <meta name="twitter:description" content="LeetCode problem">
     <link rel="shortcut icon" href="img/favicon.png" />
 
@@ -75,7 +75,7 @@
     
 
     <h2 class="article-title">
-        <a href="/p/sqrtx/">Sqrt(x)</a>
+        <a href="/p/merge-sorted-array/">Merge Sorted Array</a>
     </h2>
 
     
@@ -97,7 +97,7 @@
   <path d="M3 11h16" />
   <path d="M18 16.496v1.504l1 1" />
 </svg>
-                <time class="article-time--published">Feb 01, 2022</time>
+                <time class="article-time--published">Feb 02, 2022</time>
             </div>
         
 
@@ -124,53 +124,67 @@
     <section class="article-content">
     
     
-    <h2 id="brute-force">brute force</h2>
-<pre tabindex="0"><code>iterate over to x/2 to find final solution
-try all possible!
+    <h2 id="first-thought">first thought</h2>
+<p>insertion sort!</p>
+<p>but needs to careful insert pos!<br>
+//O(n*m)</p>
+<pre tabindex="0"><code>a = [1,2,3,0,0,0]
+m = a's elements count
+b = [4,5,6]
+n = b's elements count
+from i &lt;- n to 0:
+    start &lt;- m-1
+    while a[start] &gt; b [i]:
 
-from i &lt;- 1 to x/2  
-    if i*i &gt; x 
-        return i-1
-    else if i*i == x
-        return i
+        //move the a[start] to a[start+1]
+        a[start+1] = a[start]    
+
+        //move the start pointer to find the insert point
+        start-=1
+
+    //when leave the loop
+    //the insert point will be shift one more
+    //ex [3,0],[1]
+    //To become [1,3], first point it at [3] then move it become [3,3]
+    //then we shift the pointer to pointer -1
+    //will point it to &quot;here&quot;[3,3]
+    //so careful!
+
+    a[start+1] = b[i]
+    
+    //then add up nums1 size
+    ++m
+</code></pre><h2 id="second-thought-pointer-solution">second thought (pointer solution)</h2>
+<p>I had looked someone&rsquo;s code but get the concept then code it myself<br>
+O(m+n)</p>
+<pre tabindex="0"><code>m &lt;- nums1's elements count
+n &lt;- nums2's elements count
+i &lt;- m - 1
+j &lt;- n - 1
+k &lt;- m+n-1
+a = nums1
+b = nums2
+
+
+while i &gt; 0 and j &gt;0:
+    if a[i] &gt; b[j]:
+        //move the elements to the pos
+        nums1[k] = nums1[i]
+        --i
     else
-        i = i + 1
-</code></pre><h2 id="using-newtons-method">Using Newton&rsquo;s method</h2>
-<pre tabindex="0"><code>we first guess x/2 is the root  
-if is not we iterate until the error is less than 10^-5.
-原理是，我看影片學的，
-x*a/x = a = sqrt(a)*sqrt(a)
-如果x&lt;sqrt(a) 那a/x &gt; sqrt(a)
-如果x&gt;sqrt(a) a/x &lt; sqrt(a)
-那要找到root就是讓兩者相等 x = a/x 所以讓他們越來越靠近使用平均
-(x+a/x)/2  當成下一次的guess 讓x-a/x的誤差越來越小
+        nums1[k] = nums2[j]
+        --j
+    --k
+//only care about nums2
+//because nums1 already inside it and sorted
+while j &gt; 0:
+    nums1[k] = nums2[j]
+    --j
+    --k
 
-guess &lt;- x/2
-xn_1 &lt;- (guess+x/guess)/2
+</code></pre><p><a class="link" href="https://leetcode.com/problems/merge-sorted-array/discuss/1738129/Two-solution!-with-comment"  target="_blank" rel="noopener"
+    >Here is my LeetCode post</a></p>
 
-while (xn_1-guess) &gt; 10^-5:
-    guess &lt;- xn_1
-    xn_1 &lt;- (guess+x/guess)/2
-
-return guess
-
-</code></pre><h2 id="binary-search-methoddont-know-why-is-working">binary search method(don&rsquo;t know why is working)</h2>
-<pre tabindex="0"><code>因為數字的sqrt 不會大於數字/2，利用這個關係
-只要一直計算一半一半(因為是int)直到等於x 或是大於x就找到答案了
-
-//needed to careful overflow!!
-left  &lt;- 1
-right &lt;- x
-from left &lt;= right
-    mid = (left+right)/2
-    if mid*mid == x
-        return mid
-    else if mid*mid &gt; x
-        right = mid -1
-    else
-        left = mid+1
-return right
-</code></pre>
 </section>
 
 
@@ -212,12 +226,12 @@ return right
                 
                     
 <article class="">
-    <a href="/p/merge-sorted-array/">
+    <a href="/p/sqrtx/">
         
         
 
         <div class="article-details">
-            <h2 class="article-title">Merge Sorted Array</h2>
+            <h2 class="article-title">Sqrt(x)</h2>
         </div>
     </a>
 </article>
@@ -387,9 +401,8 @@ return right
                 <div class="widget--toc">
                     <nav id="TableOfContents">
   <ol>
-    <li><a href="#brute-force">brute force</a></li>
-    <li><a href="#using-newtons-method">Using Newton&rsquo;s method</a></li>
-    <li><a href="#binary-search-methoddont-know-why-is-working">binary search method(don&rsquo;t know why is working)</a></li>
+    <li><a href="#first-thought">first thought</a></li>
+    <li><a href="#second-thought-pointer-solution">second thought (pointer solution)</a></li>
   </ol>
 </nav>
                 </div>
