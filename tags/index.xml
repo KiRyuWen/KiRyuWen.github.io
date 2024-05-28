@@ -6,31 +6,49 @@
     <description>Recent content in Tags on Wen-Yi, Lo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 02 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://kiryuwen.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 28 May 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://kiryuwen.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Leetcode</title>
-      <link>https://kiryuwen.github.io/tags/leetcode/</link>
-      <pubDate>Wed, 02 Feb 2022 00:00:00 +0000</pubDate>
+      <title>Fun</title>
+      <link>https://kiryuwen.github.io/tags/fun/</link>
+      <pubDate>Tue, 28 May 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://kiryuwen.github.io/tags/leetcode/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Algorithm</title>
-      <link>https://kiryuwen.github.io/tags/algorithm/</link>
-      <pubDate>Mon, 31 Jan 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://kiryuwen.github.io/tags/algorithm/</guid>
+      <guid>https://kiryuwen.github.io/tags/fun/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Self-Learning</title>
       <link>https://kiryuwen.github.io/tags/self-learning/</link>
-      <pubDate>Mon, 31 Jan 2022 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 28 May 2024 00:00:00 +0000</pubDate>
       
       <guid>https://kiryuwen.github.io/tags/self-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Side Project</title>
+      <link>https://kiryuwen.github.io/tags/side-project/</link>
+      <pubDate>Tue, 28 May 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://kiryuwen.github.io/tags/side-project/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Algorithm</title>
+      <link>https://kiryuwen.github.io/tags/algorithm/</link>
+      <pubDate>Sat, 05 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://kiryuwen.github.io/tags/algorithm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Leetcode</title>
+      <link>https://kiryuwen.github.io/tags/leetcode/</link>
+      <pubDate>Wed, 02 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://kiryuwen.github.io/tags/leetcode/</guid>
       <description></description>
     </item>
     

@@ -6,7 +6,41 @@
     <description>Recent content in Self-Learning on Wen-Yi, Lo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 31 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://kiryuwen.github.io/tags/self-learning/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 28 May 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://kiryuwen.github.io/tags/self-learning/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Generate Ideas Day 1</title>
+      <link>https://kiryuwen.github.io/p/generate-ideas-day-1/</link>
+      <pubDate>Tue, 28 May 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://kiryuwen.github.io/p/generate-ideas-day-1/</guid>
+      <description>Ideas  Let go your emotions  Goals: Let users to post messages anyway without logging, only leave the &amp;ldquo;Name&amp;rdquo; &amp;ldquo;Message&amp;rdquo;   Yes or No random silly questions  Goals: To statisticize questions that I come up    </description>
+    </item>
+    
+    <item>
+      <title>Balanced Tree !</title>
+      <link>https://kiryuwen.github.io/p/balanced-tree/</link>
+      <pubDate>Sat, 05 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://kiryuwen.github.io/p/balanced-tree/</guid>
+      <description>Height (Confusing) Height of Tree (counts the node from root) 從目前Root(含root)的點+一路數到最深的leaf
+Height of node (counts the edge which selected the node then go down lowest leaf along paths) 從你選的Node一路計算到最深的leaf的&amp;quot;edge&amp;quot;的數量
+Depth (current Node how far from root) 從目前Node 數回最上層root的edge數量</description>
+    </item>
+    
+    <item>
+      <title>Master method</title>
+      <link>https://kiryuwen.github.io/p/master-method/</link>
+      <pubDate>Sat, 05 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://kiryuwen.github.io/p/master-method/</guid>
+      <description>Motivation Using this tool can help us to analyze the recursion problem, divided and conquer to find who is quicker!
+We care about more upper bound -&amp;gt; big oh
+Recursion algorithm  T(1) -&amp;gt; base case n&amp;gt;1 T(n)&amp;lt;= aT(n/b)+O(what)  Master method (Master theorem) Assumption black box for solving recurrences.
+All subproblems have equal size. ex merge sort 每個都分成n/2
+如果有不同size的recursion call 就要用別的方法 不是master method
+ Base case T(n)&amp;lt;= a constant for all sufficiently small n For all larger n -&amp;gt; T(n) &amp;lt;= aT(n/b)+O(n^d)</description>
+    </item>
+    
     <item>
       <title>Karatsuba Algorithm(multiply two num)</title>
       <link>https://kiryuwen.github.io/p/karatsuba-algorithmmultiply-two-num/</link>
