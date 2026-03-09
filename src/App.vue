@@ -3,7 +3,7 @@
     <nav class="px-12 py-6 flex justify-between items-center text-lg border-b border-white/20">
       <router-link to="/" class="flex items-center gap-2 text-xl">
         <span>🏠</span>
-        <span>home</span>
+        <!-- <span>home</span> -->
       </router-link>
       <div class="flex gap-10">
         <router-link to="/blog">blog</router-link>
