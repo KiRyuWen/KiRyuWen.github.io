@@ -8,8 +8,8 @@
       <div class="flex gap-10">
         <router-link to="/blog">blog</router-link>
         <router-link to="/projects">projects</router-link>
-        <a href="mailto:you@example.com">contact</a>
-        <a href="/resume.pdf" target="_blank">resume</a>
+        <a href="mailto:leith9210@tamu.edu">contact</a>
+        <a href="/wenyi_lo_resume_backend.pdf" target="_blank">resume</a>
       </div>
     </nav>
     <router-view />
