@@ -27,6 +27,11 @@ export default {
       text:
         'You have to be on the Texas A&M network to reach these servers — connect to tamu_wifi on campus, or the TAMU VPN from anywhere else.',
     },
+    {
+      t: 'p',
+      html:
+        'The VPN client is Cisco Secure Client. Get it from <a href="https://connect.tamu.edu" target="_blank" rel="noopener">connect.tamu.edu</a> — the page detects your OS — and sign in with your NetID plus Duo.',
+    },
 
     { t: 'h2', text: 'Outline' },
     {
@@ -36,7 +41,7 @@ export default {
         'Find the server address',
         'Pick a tool to connect with',
         'Create your home directory over SMB',
-        'Connect with PuTTY',
+        'Connect',
         'Troubleshooting',
       ],
     },
@@ -65,17 +70,17 @@ export default {
         'compute.cse.tamu.edu',
       ],
     },
+    {
+      t: 'p',
+      text:
+        'I have only used the first one, and it is the right default for logging in and doing normal work. If you need compute.cse.tamu.edu for something heavier, ask the helpdesk what it is meant for before assuming.',
+    },
 
     { t: 'h2', text: '3. Pick a tool' },
     {
       t: 'p',
       text:
-        'PuTTY — a simple SSH client. As a CS student you are probably already familiar with it.',
-    },
-    {
-      t: 'p',
-      text:
-        'Terminal — if you would rather type the command yourself, plain ssh works just as well. Either is fine; it comes down to preference.',
+        'On macOS or Linux, ssh is already installed — open a terminal and you are done. On Windows, use PuTTY, which most CS students have seen before.',
     },
 
     { t: 'h2', text: '4. Create your home directory' },
@@ -83,6 +88,11 @@ export default {
       t: 'p',
       text:
         'This is the step most people skip. You have to create your home directory over SMB first — until it exists, SSH will keep rejecting you.',
+    },
+    {
+      t: 'p',
+      text:
+        'There is no "create" button anywhere: connecting to the file share is what creates the directory. Do it from your own laptop, not from the Linux server. When a window opens showing a folder named after your classification (Grads, Ugrads, and so on), the directory exists and you can move on.',
     },
     {
       t: 'p',
@@ -131,37 +141,33 @@ Type the address for the College of Engineering file share:
 Sign in with AUTH\\yourNetID`,
     },
 
-    { t: 'h2', text: '5. Connect with PuTTY' },
+    { t: 'h2', text: '5. Connect' },
     {
       t: 'note',
       text:
         'This is where you are most likely to hit an error. If you still get "permission denied" or "access denied" after the home directory exists, jump to Troubleshooting.',
     },
-    { t: 'p', text: 'I use macOS, so PuTTY comes from Homebrew:' },
     {
-      t: 'code',
-      code: `# install PuTTY (you need brew for this)
-brew install putty
-
-# start it
-putty`,
+      t: 'p',
+      text:
+        'Log in as your NetID alone — no @tamu.edu. The password is the same one you use for Howdy (the Microsoft login).',
     },
-    { t: 'p', text: 'Then enter one of the server addresses:' },
+    { t: 'code', label: 'macOS / Linux', code: 'ssh yourNetID@linux.cse.tamu.edu' },
     {
-      t: 'ol',
-      items: [
-        'linux.cse.tamu.edu, interactive.cse.tamu.edu, linux2.engr.tamu.edu',
-        'compute.cse.tamu.edu',
-      ],
+      t: 'p',
+      text:
+        'On Windows, open PuTTY, put the same address in the Host Name field, leave the port at 22, and click Open. It will ask for your NetID and password.',
     },
     {
       t: 'p',
       text:
-        'Log in as your NetID (no @tamu.edu). The password is the same one you use for Howdy (the Microsoft login).',
+        'Once you are in, run pwd. It should print your home directory — the same one you just created over SMB. If it does, everything is wired up correctly.',
     },
-    { t: 'p', text: 'From a terminal the equivalent is:' },
-    { t: 'code', code: 'ssh yourNetID@linux.cse.tamu.edu' },
-    { t: 'p', text: 'And you should be in.' },
+    {
+      t: 'note',
+      text:
+        'You can install PuTTY on macOS with brew install putty, but it pulls in GTK and needs XQuartz to open its window. Since ssh is already built in, it is not worth the trouble unless you specifically want the PuTTY interface.',
+    },
 
     { t: 'h2', text: '6. Troubleshooting' },
     {
@@ -172,7 +178,12 @@ putty`,
     {
       t: 'p',
       text:
-        'If you get "access denied" or "permission denied", email them the exact error message you saw. You will get a ticket back, and then you wait for IT to open the permissions on your account.',
+        'If you get "access denied" or "permission denied", email them the exact error message you saw. You will get a ticket back, and then you wait for IT to open the permissions on your account. Mine took about half a day.',
+    },
+    {
+      t: 'p',
+      text:
+        'They only work weekday daytime hours, and in my experience replies stop coming after about 4pm. If you send the email late in the day or over the weekend, expect to wait until the next working morning.',
     },
     {
       t: 'p',
